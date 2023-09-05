@@ -66,7 +66,7 @@
       "thumbnail": "/images/car-rental-portfolio.png",
       "live": "https://car-rental-next-djm8gapzj-devmunira.vercel.app/",
       "srs": "/",
-      "code": "https://github.com/devmunira/reactCustomFormValidationHook",
+      "code": "https://github.com/devmunira/carRentalNextApp",
       "Tech": ["React", "Custom Hook", "Styled Components"]
     }
   ],
