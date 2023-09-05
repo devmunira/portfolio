@@ -4,10 +4,10 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <div className="bg-primary-100 !mobile:w-full px-0 mx-0">
+    <div className="bg-blue-bg !mobile:w-full px-0 mx-0">
       <div className="container py-1 w-full flex justify-between items-center">
         {/* Logo */}
-        <div className="font-bold tracking-wide text-[18px] font-firaCode text-secondary">
+        <div className="font-bold tracking-wide text-[18px] font-firaCode text-primary-100">
           {"<munira/>"}
         </div>
         {/* Menu */}

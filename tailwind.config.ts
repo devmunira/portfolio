@@ -31,6 +31,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "blue-bg":
+          "linear-gradient(to right, #021B79, #0A2B9F, #124CB6, #1A6CD3)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -39,7 +41,7 @@ const config: Config = {
       colors: {
         black: "#061113",
         primary: {
-          DEFAULT: "#279EFF",
+          DEFAULT: "#FFA500",
           100: "#f0f6fa",
           500: "#99d1ff",
         },

@@ -4,7 +4,7 @@ import data from "../../public/data/data.json";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-secondary text-white py-2">
+    <div className="w-full bg-blue-bg text-white py-2">
       <div className="container flex mobile:flex-col tablet:flex-row  mobile:text-center tablet:justify-between tablet:items-center w-full">
         {/* Social Icon */}
         <div className="flex items-center mobile:justify-center tablet:justify-start  gap-5 text-[20px]">
@@ -31,7 +31,7 @@ const Footer = () => {
           </Link>
         </div>
         {/* Copy Right Issue */}
-        <p className="paragraph !text-slate-400 tracking-wide !mobile:text[10px]">{`© ${new Date().getFullYear()}, All rights reserved. Developed with Next.js by Munira.`}</p>
+        <p className="paragraph !text-slate-100 tracking-wide !mobile:text[10px]">{`© ${new Date().getFullYear()}, All rights reserved. Developed with Next.js by Munira.`}</p>
       </div>
     </div>
   );
