@@ -20,7 +20,7 @@ export default function Home() {
               className="main__profile__image"
             ></Image>
             <p className="icon__heading !font-firaCode !py-2 !text-secondary">
-              <FcHome></FcHome>Avaiable for remote work..
+              <FcHome></FcHome>Avaiable for remote work...
             </p>
           </div>
           <div className="flex flex-col justify-start laptop:w-[65%] mobile:w-[100%] flex-none">

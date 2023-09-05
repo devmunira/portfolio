@@ -3,7 +3,7 @@
     "name": "Munira Akter",
     "title": "Frontend Developer",
     "intro": "👋 Hello, World! I'm Munira, a passionate and results-driven Frontend developer with a year of immersive experience in the world of web development. I specialize in creating interactive and user-friendly web applications that not only meet the needs of users but also deliver a delightful digital experience.",
-    "desc": "My journey in the world of web development began with a strong curiosity and an insatiable hunger to learn. Over the past years, I've had the privilege of honing my skills, working on diverse projects, and pushing the boundaries of what's possible with JavaScript specially on React & Next.Please take a moment to explore my portfolio, where you'll find a showcase of projects that I've worked on over the past years. Each project reflects my commitment to creating user-centric applications that make a positive impact ",
+    "desc": "My journey in the world of web development began with a strong curiosity and an insatiable hunger to learn. Over the past years, I've had the privilege of honing my skills, working on diverse projects, and pushing the boundaries of what's possible with JavaScript specially on React & Next.Please take a moment to explore my portfolio, where you'll find a showcase of projects that I've worked on over the past years. Each project reflects my commitment to creating user-centric applications that make a positive impact.",
     "cta": "I'm excited to continue my journey in web development, taking on new challenges, and contributing to innovative projects. If you're looking for a dedicated and enthusiastic React.js developer, feel free to reach out. Let's build something amazing together!",
     "address": "Dhaka, Bangladesh",
     "whatCanI": "My experience and passion for web development allow me to offer comprehensive solutions that encompass both design and development, making me a valuable asset for your projects.",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Clean Youtube",
-      "desc": "Developed a YouTube API-based application tailored for students, prioritizing focused learning through a multiple selected playlist. By leveraging the YouTube API, the application removes ads and distractions, providing an uninterrupted and immersive learning experience. The app allows students to concentrate solely on the selected playlist, enhancing their productivity and knowledge retention",
+      "desc": "Developed a YouTube API-based application tailored for students, prioritizing focused learning through a multiple selected playlist. By leveraging the YouTube API, the application removes ads and distractions, providing an uninterrupted and immersive learning experience. The app allows students to concentrate solely on the selected playlist, enhancing their productivity and knowledge retention.",
       "date": "2023",
       "thumbnail": "/images/clean-youtube-portfolio.png",
       "live": "https://phenomenal-sfogliatella-3f9e16.netlify.app/",
@@ -73,7 +73,7 @@
   "expreience": [
     {
       "title": "Web App Developer",
-      "desc": "As a web app developer at Spring Soft IT, I was responsible for designing, developing, and deploying a comprehensive web application for the company's Human Resource Management (HRM) department. The goal of the project was to streamline HR processes, enhance employee engagement, and improve overall operational efficiency",
+      "desc": "As a web app developer at Spring Soft IT, I was responsible for designing, developing, and deploying a comprehensive web application for the company's Human Resource Management (HRM) department. The goal of the project was to streamline HR processes, enhance employee engagement, and improve overall operational efficiency.",
       "date": "2021 to 2022  ",
       "link": "https://drive.google.com/file/d/1VKt8cMeE_PRugcoAaa9BnmLA0fMFoKSO/view?usp=sharing",
       "skills": ["Web App Develop", "PHP & Laravel"],
@@ -89,7 +89,7 @@
     },
     {
       "title": "Web & Software Developer",
-      "desc": "As a freelance web and software developer on Upwork, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction",
+      "desc": "As a freelance web and software developer on Upwork, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction.",
       "date": "2021 to Current",
       "link": "https://www.upwork.com/freelancers/muniraakter",
       "skills": ["Web Design", "Web App Develop", "PHP & Laravel", "WordPress"],
@@ -97,7 +97,7 @@
     },
     {
       "title": "Web & Software Developer",
-      "desc": "As a freelance web and software developer on Upwork, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction",
+      "desc": "As a freelance web and software developer on Upwork, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction.",
       "date": "2021 to Current",
       "link": "/",
       "skills": [
