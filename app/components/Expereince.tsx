@@ -18,7 +18,7 @@ const Expereince: React.FC<Props> = ({ data }) => {
             className="flex justify-start items-stretch flex-none laptop:w-[50%] mobile:w-[100%]"
           >
             <div className="flex justify-start items-stretch gap-5 cursor-pointer">
-              <h6 className="flex-none max-w-[25%] !font-semibold !font-firaCode hidden tablet:block laptop:hidden desktop:block !text-slate-700">
+              <h6 className="flex-none max-w-[25%] !font-semibold !font-firaCode hidden tablet:hidden laptop:hidden desktop:block !text-slate-700">
                 {item?.date}
               </h6>
               <div className="flex-none laptop:max-w-[75%] mobile:w-[100%]">
@@ -33,9 +33,11 @@ const Expereince: React.FC<Props> = ({ data }) => {
                 <h2 className="sub__heading !text-[12px] !font-poppins pt-2">
                   {item?.title}
                 </h2>
-                <h6 className="!font-semibold !font-firaCode tablet:hidden mobile:block laptop:block desktop:hidden !text-slate-600 !text-[10px] !mt-2">
+
+                <h6 className="!font-semibold !font-firaCode tablet:block mobile:block laptop:block desktop:hidden !text-slate-600 !text-[10px] !mt-2">
                   {item?.date}
                 </h6>
+
                 <p className="paragraph !pt-2 max-w-[80%]">{item?.desc}</p>
 
                 <div className="flex gap-2 items-center flex-wrap">
