@@ -15,7 +15,7 @@ const Expereince: React.FC<Props> = ({ data }) => {
         {data?.expreience?.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start items-stretch flex-none laptop:max-w-[50%] mobile:max-w-[100%]"
+            className="flex justify-start items-stretch flex-none laptop:max-w-[50%] mobile:min-w-[100%]"
           >
             <div className="flex justify-start items-stretch gap-5 cursor-pointer">
               <h6 className="flex-none max-w-[25%] !font-semibold !font-firaCode hidden tablet:block laptop:hidden desktop:block !text-slate-700">
