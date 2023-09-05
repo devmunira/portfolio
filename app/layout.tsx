@@ -1,5 +1,4 @@
 "use client";
-import type { Metadata } from "next";
 import { useEffect, useState } from "react";
 import AnimatedCursor from "react-animated-cursor";
 import "swiper/css";
@@ -9,17 +8,17 @@ import { Footer, Header } from "./components";
 import Preloader from "./components/Preloader";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Munira Akter",
-  description: "Full Stack Web Developer",
-  authors: [{ name: "Munira Akter", url: "muniraakter.com" }],
-  applicationName: "Munira &apos; s Portfolio",
-  keywords: [
-    "Frontend-developer, full-stack-developer, munira-akter , react, next.js",
-  ],
-  icons: "",
-  twitter: {},
-};
+// export const metadata: Metadata = {
+//   title: "Munira Akter",
+//   description: "Full Stack Web Developer",
+//   authors: [{ name: "Munira Akter", url: "muniraakter.com" }],
+//   applicationName: "Munira &apos; s Portfolio",
+//   keywords: [
+//     "Frontend-developer, full-stack-developer, munira-akter , react, next.js",
+//   ],
+//   icons: "",
+//   twitter: {},
+// };
 
 export default function RootLayout({
   children,
