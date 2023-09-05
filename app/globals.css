@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --global-text-color: "#061113";
+  --background-start-rgb: "#e6f0ff";
+  --background-end-rgb: "#ecf7f9";
+  --primary-color: "#3AA6B9";
+  --cursor-color: #99d1ff;
+}
+
+body {
+  color: rgb(var(--global-text-color));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* CSS Preset */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scroll Bar */
+.e-dlg-center-center,
+.e-quick-popup-wrapper.e-device {
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  @apply !bg-primary;
+  border-radius: 40px !important;
+}
+::-webkit-scrollbar-track {
+  @apply !bg-secondary;
+}
+
+.main__btn {
+  @apply border-0 bg-primary text-white 
+  py-2 px-5 rounded-sm text-[16px] drop-shadow-2xl font-firaCode ease-in-out duration-300 hover:bg-secondary my-3 inline-block max-w-[120px] tracking-tight;
+}
+
+.main__heading {
+  @apply text-[36px] font-semibold text-black font-firaCode tracking-tight capitalize;
+}
+
+.sub__heading {
+  @apply text-[16px] capitalize tracking-wide !text-slate-700 font-semibold font-firaCode;
+}
+
+.icon__heading {
+  @apply text-primary flex gap-2 items-center justify-start text-[14px] font-semibold;
+}
+
+.paragraph {
+  @apply text-[14px] tracking-wider !font-poppins leading-7 text-slate-900 py-3;
+}
+
+.form__input {
+  @apply bg-slate-200 py-[7px] px-2 border-[1px] text-slate-700 border-slate-200 text-[14px] font-poppins block my-2 max-w-[80%] focus:border-primary ease-in-out duration-500 hover:border-primary-500;
+}
+
+.icon__btn {
+  @apply font-bold text-[18px] text-black my-1;
+}
+
+.plain__btn {
+  @apply text-[14px] font-normal font-poppins capitalize tracking-wider ease-in-out duration-500  hover:text-primary text-secondary;
+}
+
+.sticky__mail {
+  @apply fixed bottom-[100px] h-[200px] right-5 text-slate-600 text-ellipsis tracking-[.6px] font-bold text-[12px]
+  hover:after:h-2 hover:after:ease-in-out hover:after:duration-700 hover:text-primary ease-in-out duration-700;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
+
+.sticky__mail::after {
+  @apply absolute top-0 h-full w-[1.5px] bg-slate-700 opacity-100;
+  content: "";
+  transition: height 0.7s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+.sticky__mail:hover::after {
+  height: 2px;
+  opacity: 1;
+  @apply bg-primary;
+}
+
+.main__profile__image {
+  @apply border-spacing-2 border-slate-400 laptop:w-[400px] border object-cover mobile:w-[100%] mobile:h-auto;
+}
+
+.vertical__heading {
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  padding: 20px 10px !important;
+  @apply text-secondary font-semibold font-firaCode tracking-wide text-[20px] shadow-sm;
+}
+
+@media screen and (min-width: 340px) and (max-width: 1023px) {
+  .vertical__heading {
+    writing-mode: horizontal-tb;
+    text-orientation: sideways-right;
+    padding: 20px 10px;
+    @apply text-secondary font-semibold font-firaCode tracking-wide laptop:text-[20px] mobile:text-[14px]  shadow-sm;
+  }
+}
+
+.badge {
+  @apply flex flex-col justify-start items-center py-[5px] cursor-pointer  px-6 border-[1px] border-primary rounded-full text-[10px] font-firaCode font-semibold;
+}
+
+.project__photo {
+  @apply laptop:w-[90%] mobile:w-[100%] laptop:h-auto desktop:h-[320px] mobile:h-auto mb-5 cursor-pointer hover:shadow-md ease-in-out duration-700 hover:translate-y-2;
+}

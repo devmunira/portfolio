@@ -1,0 +1,135 @@
+{
+  "bio": {
+    "name": "Munira Akter",
+    "title": "Frontend Developer",
+    "intro": "👋 Hello, World! I'm Munira, a passionate and results-driven Frontend developer with a year of immersive experience in the world of web development. I specialize in creating interactive and user-friendly web applications that not only meet the needs of users but also deliver a delightful digital experience.",
+    "desc": "My journey in the world of web development began with a strong curiosity and an insatiable hunger to learn. Over the past years, I've had the privilege of honing my skills, working on diverse projects, and pushing the boundaries of what's possible with JavaScript specially on React & Next.Please take a moment to explore my portfolio, where you'll find a showcase of projects that I've worked on over the past years. Each project reflects my commitment to creating user-centric applications that make a positive impact ",
+    "cta": "I'm excited to continue my journey in web development, taking on new challenges, and contributing to innovative projects. If you're looking for a dedicated and enthusiastic React.js developer, feel free to reach out. Let's build something amazing together!",
+    "address": "Dhaka, Bangladesh",
+    "whatCanI": "My experience and passion for web development allow me to offer comprehensive solutions that encompass both design and development, making me a valuable asset for your projects.",
+    "contact": {
+      "email": "muniraweb@gmail.com",
+      "linkedIn": "https://www.linkedin.com/in/muniraakter/",
+      "location": "Dhaka, Bangladesh",
+      "github": "https://github.com/devmunira"
+    }
+  },
+  "projects": [
+    {
+      "title": "Ecommerce Site",
+      "desc": "Developed a feature-rich React book e-commerce platform integrated with Stripe payment gateway. Leveraged technologies such as React, Redux, Material-UI (MUI), Strapi CMS, and Next.js to build a scalable and secure online store. Implemented seamless payment processing through Stripe, ensuring a smooth and secure checkout experience for customers.",
+      "date": "2023",
+      "thumbnail": "/images/ecommerce-portfolio.png",
+      "live": "/",
+      "srs": "https://www.notion.so/BoiGhor-1dc94ded89f345b6bf973bdfa7f819e2",
+      "code": "https://github.com/devmunira/bookStoreEcommerce",
+      "Tech": [
+        "React",
+        "Next Js",
+        "Redux",
+        "MUI",
+        "Strapi CMS",
+        "Styled Components"
+      ]
+    },
+    {
+      "title": "Clean Youtube",
+      "desc": "Developed a YouTube API-based application tailored for students, prioritizing focused learning through a multiple selected playlist. By leveraging the YouTube API, the application removes ads and distractions, providing an uninterrupted and immersive learning experience. The app allows students to concentrate solely on the selected playlist, enhancing their productivity and knowledge retention",
+      "date": "2023",
+      "thumbnail": "/images/clean-youtube-portfolio.png",
+      "live": "https://phenomenal-sfogliatella-3f9e16.netlify.app/",
+      "srs": "https://www.notion.so/You-tube-012de62f7f024580a7e114d4ac3a0f68",
+      "code": "https://github.com/devmunira/clean_youtube",
+      "Tech": [
+        "React",
+        "React Router",
+        "Easy-peasy",
+        "MUI",
+        "Youtube API",
+        "Styled Components"
+      ]
+    },
+    {
+      "title": "Product Landing Page",
+      "desc": "Designed a visually captivating landing page using React, Tailwind CSS, and React animations. Leveraged the flexibility of React to create interactive and dynamic components, while incorporating Tailwind CSS for efficient and responsive styling. Integrated React animation libraries to add engaging and smooth transitions, resulting in a visually stunning and user-friendly landing page design.",
+      "date": "2023",
+      "thumbnail": "/images/landing-page.png",
+      "live": "/",
+      "srs": "/",
+      "code": "https://github.com/devmunira/react_product_landing_page",
+      "Tech": ["React", "Framer Motion", "Tailwind CSS"]
+    },
+    {
+      "title": "Car Rantal SPA",
+      "desc": "This Car Rental Website is a dynamic and user-friendly platform designed to streamline the process of renting vehicles. This project showcases my web development skills and commitment to creating seamless online experiences for users.",
+      "date": "2023",
+      "thumbnail": "/images/car-rental-portfolio.png",
+      "live": "https://car-rental-next-djm8gapzj-devmunira.vercel.app/",
+      "srs": "/",
+      "code": "https://github.com/devmunira/reactCustomFormValidationHook",
+      "Tech": ["React", "Custom Hook", "Styled Components"]
+    }
+  ],
+  "expreience": [
+    {
+      "title": "Web App Developer",
+      "desc": "As a web app developer at Spring Soft IT, I was responsible for designing, developing, and deploying a comprehensive web application for the company's Human Resource Management (HRM) department. The goal of the project was to streamline HR processes, enhance employee engagement, and improve overall operational efficiency",
+      "date": "2021 to 2022  ",
+      "link": "https://drive.google.com/file/d/1VKt8cMeE_PRugcoAaa9BnmLA0fMFoKSO/view?usp=sharing",
+      "skills": ["Web App Develop", "PHP & Laravel"],
+      "companyName": "IT Agency - Spring Soft IT"
+    },
+    {
+      "title": "Co-Instructor - JavaScript",
+      "desc": "Served as a JavaScript Co-Instructor from 2021 to 2022, facilitating engaging and interactive learning experiences for students. Assisted in delivering comprehensive lessons, conducting code reviews, and supporting students in their journey to master JavaScript fundamentals.",
+      "date": "2021 to 2022  ",
+      "link": "https://sorobindu.com/",
+      "skills": ["JavaScript"],
+      "companyName": "Learning Platform - SoroBindu"
+    },
+    {
+      "title": "Web & Software Developer",
+      "desc": "As a freelance web and software developer on Upwork, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction",
+      "date": "2021 to Current",
+      "link": "https://www.upwork.com/freelancers/muniraakter",
+      "skills": ["Web Design", "Web App Develop", "PHP & Laravel", "WordPress"],
+      "companyName": "Freelance Platform - Upwork & PPH"
+    },
+    {
+      "title": "Web & Software Developer",
+      "desc": "As a freelance web and software developer on Upwork, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction",
+      "date": "2021 to Current",
+      "link": "/",
+      "skills": [
+        "Web Design",
+        "Web App Develop",
+        "PHP & Laravel",
+        "WordPress",
+        "MERN"
+      ],
+      "companyName": "Local Client - Bangladesh"
+    }
+  ],
+  "whatICan": [
+    {
+      "title": "Web App Development:",
+      "desc": "I excel in crafting dynamic and responsive web applications that are not only visually appealing but also highly functional."
+    },
+    {
+      "title": "Web App Design:",
+      "desc": "Design is not just about aesthetics; it's about creating intuitive and user-friendly interfaces. I'm skilled in translating concepts into visually."
+    },
+    {
+      "title": "REST API Design:",
+      "desc": "I specialize in architecting robust and efficient APIs that facilitate data communication, ensuring smooth interaction between the Client and Server systems"
+    }
+  ],
+  "recomendation": [],
+  "softSkills": [
+    "Communication",
+    "Problem-Solving",
+    "Collaboration",
+    "Time Management",
+    "Attention to Detail"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/*.js": {
+        "when": "$(basename).ts"
+      },
+      "**/*.js.map": {
+        "when": "$(basename)"
+      }
+    },
+    "editor.formatOnSave": true,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html",
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "w-(\\d+)",
+      "h-(\\d+)"
+    ]
+  }
+  
