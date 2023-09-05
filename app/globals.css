@@ -94,14 +94,14 @@ html {
 }
 
 .sticky__mail {
-  @apply fixed bottom-[100px] h-[200px] right-5 text-slate-600 text-ellipsis tracking-[.6px] font-bold text-[12px]
+  @apply fixed bottom-[50px] h-[145px] right-5 text-slate-600 text-ellipsis tracking-[.6px] font-bold text-[12px]
   hover:after:h-2 hover:after:ease-in-out hover:after:duration-700 hover:text-primary ease-in-out duration-700;
   writing-mode: vertical-rl;
   text-orientation: sideways;
 }
 
 .sticky__mail::after {
-  @apply absolute top-0 h-full w-[1.5px] bg-slate-700 opacity-100;
+  @apply absolute top-0 h-[145px] w-[1.5px] bg-slate-700 opacity-100;
   content: "";
   transition: height 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }

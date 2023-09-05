@@ -54,7 +54,7 @@
       "desc": "Designed a visually captivating landing page using React, Tailwind CSS, and React animations. Leveraged the flexibility of React to create interactive and dynamic components, while incorporating Tailwind CSS for efficient and responsive styling. Integrated React animation libraries to add engaging and smooth transitions, resulting in a visually stunning and user-friendly landing page design.",
       "date": "2023",
       "thumbnail": "/images/landing-page.png",
-      "live": "/",
+      "live": "https://vercel.com/devmunira/react-product-landing-page",
       "srs": "/",
       "code": "https://github.com/devmunira/react_product_landing_page",
       "Tech": ["React", "Framer Motion", "Tailwind CSS"]
