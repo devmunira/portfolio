@@ -38,7 +38,7 @@ const Projects: React.FC<Props> = ({ data }) => {
       >
         {data?.projects?.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="h-[500px] mobile:overflow-y-auto laptop:overflow-hidden box-border flex mobile:flex-col laptop:flex-row justify-between items-center relative w-full py-10 bg-primary-100 p-10 rounded-md">
+            <div className="laptop:h-[500px] mobile:h-[auto] box-border flex mobile:flex-col laptop:flex-row justify-between items-center relative w-full py-10 bg-primary-100 p-10 rounded-md">
               <div className="flex-initial mobile:w-[100%] laptop:w-[50%]">
                 <Image
                   src={item?.thumbnail}
