@@ -19,7 +19,7 @@ const Service: React.FC<ServiceProps> = ({ data }) => {
         <p className="paragraph">{data?.bio?.whatCanI}</p>
 
         {data?.whatICan?.map((item, index) => (
-          <div className="py-2" key={index}>
+          <div className="" key={index}>
             <p className="paragraph">
               <span className="sub__heading">{item?.title}</span> {item?.desc}
             </p>

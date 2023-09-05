@@ -15,10 +15,14 @@ const Expereince: React.FC<Props> = ({ data }) => {
         {data?.expreience?.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start items-stretch flex-none laptop:w-[50%] mobile:w-[100%] !text-justify"
+            className="flex justify-start items-stretch flex-none laptop:w-[50%] mobile:w-[100%] text-justify"
           >
             <div className="flex justify-start items-stretch gap-5 cursor-pointer">
-              <h6 className="flex-none max-w-[25%] !font-semibold !font-firaCode hidden tablet:hidden laptop:hidden desktop:block !text-slate-700">
+              <h6
+                className={`flex-none max-w-[25%] !font-semibold !font-firaCode hidden tablet:hidden laptop:hidden desktop:block !text-slate-700 ${
+                  index == 0 || index == 1 ? "desktop:pr-10 mobile:pr-0" : ""
+                }`}
+              >
                 {item?.date}
               </h6>
               <div className="flex-none laptop:max-w-[75%] mobile:w-[100%]">
