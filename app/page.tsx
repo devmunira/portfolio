@@ -1,6 +1,10 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { FcHome } from "react-icons/fc";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 import data from "./../public/data/data.json";
 import profileImage from "./../public/images/profile.jpg";
 import Expereince from "./components/Expereince";
@@ -10,15 +14,31 @@ import Service from "./components/Service";
 import StickyEmail from "./components/StickyEmail";
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 2000);
+
   return (
     <main className="flex flex-col w-full text">
       <div className="container">
         <div className="flex mobile:flex-col laptop:flex-row justify-start items-start py-5 gap-5">
           <div className="flex-none laptop:w-[32%] mobile:w-[100%]">
-            <Image
-              alt="Profile Photo"
-              src={profileImage}
-              className="main__profile__image"></Image>
+            {isLoading ? (
+              <SkeletonTheme
+                baseColor="#e6f0ff"
+                highlightColor="#ecf7f9"
+                duration={5}
+                enableAnimation={true}>
+                <Skeleton className="main__profile__image !h-[450px]" />
+              </SkeletonTheme>
+            ) : (
+              <Image
+                alt="Profile Photo"
+                src={profileImage}
+                className="main__profile__image"></Image>
+            )}
             <p className="icon__heading !font-firaCode !py-2 !text-secondary">
               <FcHome></FcHome>Avaiable for remote work...
             </p>
