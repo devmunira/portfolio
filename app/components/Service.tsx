@@ -8,7 +8,7 @@ interface ServiceProps {
 
 const Service: React.FC<ServiceProps> = ({ data }) => {
   return (
-    <div className="section py-5 flex laptop:flex-row mobile:flex-col justify-start gap-10 items-stretch w-full">
+    <div className="section py-14 flex laptop:flex-row mobile:flex-col justify-start gap-10 items-stretch w-full">
       <div>
         <Heading text="Expertize & Skills" number={1}></Heading>
       </div>

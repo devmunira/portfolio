@@ -1,10 +1,10 @@
 {
   "bio": {
     "name": "Munira Akter",
-    "title": "Frontend Developer",
-    "intro": "👋 Hello, World! I'm Munira, a passionate and results-driven Frontend developer with a year of immersive experience in the world of web development. I specialize in creating interactive and user-friendly web applications that not only meet the needs of users but also deliver a delightful digital experience.",
-    "desc": "My journey in the world of web development began with a strong curiosity and an insatiable hunger to learn. Over the past years, I've had the privilege of honing my skills, working on diverse projects, and pushing the boundaries of what's possible with JavaScript specially on React & Next.Please take a moment to explore my portfolio, where you'll find a showcase of projects that I've worked on over the past years. Each project reflects my commitment to creating user-centric applications that make a positive impact.",
-    "cta": "I'm excited to continue my journey in web development, taking on new challenges, and contributing to innovative projects. If you're looking for a dedicated and enthusiastic React.js developer, feel free to reach out. Let's build something amazing together!",
+    "title": "Full Stack Developer",
+    "intro": "👋 Hello, World! I'm Munira, a passionate and results-driven Full Stack developer in the world of web development. Throughout my journey in web development, I've gained 1.5 years of valuable experience crafting dynamic and user-centric web applications.",
+    "desc": "I specialize in building seamless digital experiences using technologies like React and Next.js on the frontend, complemented by Node.js and Express.js on the backend. From e-commerce platforms to content management systems (CMS), I've showcased my adaptability to diverse project domains. My skills extend to proficiently managing databases, both relational, such as MySQL, and NoSQL, like MongoDB, ensuring efficient data storage and retrieval. I'm well-versed in crafting visually appealing user interfaces and have a knack for responsive design. My approach also includes comprehensive testing using Jest and Supertest to guarantee the reliability and functionality of web applications. Leveraging Git and GitHub for version control, I maintain clean, well-documented code repositories and thrive on collaborative development. My dedication to continuous learning keeps me at the forefront of web development trends, making me an asset to any team or project.",
+    "cta": "I'm excited to continue my journey in web development, taking on new challenges, and contributing to innovative projects. If you're looking for a dedicated and enthusiastic Full Stack Developer, feel free to reach out. Let's build something amazing together!",
     "address": "Dhaka, Bangladesh",
     "whatCanI": "My experience and passion for web development allow me to offer comprehensive solutions that encompass both design and development, making me a valuable asset for your projects.",
     "contact": {
@@ -94,7 +94,15 @@
       "date": "2021 to Current",
       "link": "https://www.upwork.com/freelancers/muniraakter",
       "skills": ["Web Design", "Web App Develop", "PHP & Laravel", "WordPress"],
-      "companyName": "Freelance Platform - Upwork & PPH"
+      "companyName": "Freelance Platform - Upwork"
+    },
+    {
+      "title": "Web & Software Developer",
+      "desc": "As a freelance web and software developer on PPH, I have successfully delivered high-quality projects, leveraging my expertise in front-end and back-end development. With a strong attention to detail and a commitment to meeting client requirements, I consistently exceed expectations and ensure client satisfaction.",
+      "date": "2021 to Current",
+      "link": "https://www.peopleperhour.com/freelancer/technology-programming/munira-akter-top-rated-web-software-developer-qqmwzyj",
+      "skills": ["Web Design", "Web App Develop", "PHP & Laravel", "WordPress"],
+      "companyName": "Freelance Platform - PPH"
     }
   ],
   "whatICan": [
@@ -111,7 +119,29 @@
       "desc": "I specialize in architecting robust and efficient APIs that facilitate data communication, ensuring smooth interaction between the Client and Server systems"
     }
   ],
-  "recomendation": [],
+  "recommandations": [
+    {
+      "name": "Asraful Haque",
+      "title": "Chief Executive Officer at @ neooo inc",
+      "connection": "Mentor",
+      "text": "I wholeheartedly recommend Munira Akter as a Laravel & MERN Stack developer. During our time working together at neooo inc, She consistently demonstrated exceptional technical skills and adaptability. Munira Akter is a valuable team member who communicates effectively and willingly mentors others. Her dedication to meeting project goals and staying up-to-date with industry trends makes her an asset to any organization. Don't hesitate to consider Munira Akter for your MERN Stack development needs; she is a talented and reliable professional.",
+      "link": "https://www.linkedin.com/in/muniraakter/"
+    },
+    {
+      "name": "Abedin Raju",
+      "title": "Developer",
+      "connection": "Collegue",
+      "text": "I am writing this letter to highly recommend Munira Akter for her exceptional skills and expertise as a front-end developer. I have had the pleasure of working closely with Munira on several projects, and her dedication, technical proficiency, and passion for her work have always stood out. Munira's ability to translate design concepts into seamless, interactive user interfaces is truly remarkable.",
+      "link": "https://www.linkedin.com/in/muniraakter/"
+    },
+    {
+      "name": "Michael Gillis",
+      "title": "President, Western Australia Philippines Business Council",
+      "connection": "Client",
+      "text": "Munira Akter redesigned an early website for our organisation. Her work was very good and her ability to complete the task in a very short timeframe was exceptional.",
+      "link": "https://drive.google.com/file/d/1tiRKIo8maJRPkZ_evAtiFneFTv_rSYhv/view?usp=sharing"
+    }
+  ],
   "softSkills": [
     "Communication",
     "Problem-Solving",

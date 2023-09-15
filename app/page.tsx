@@ -5,6 +5,7 @@ import data from "./../public/data/data.json";
 import profileImage from "./../public/images/profile.jpg";
 import Expereince from "./components/Expereince";
 import Projects from "./components/Projects";
+import Recommandation from "./components/Recommandation";
 import Service from "./components/Service";
 import StickyEmail from "./components/StickyEmail";
 
@@ -17,8 +18,7 @@ export default function Home() {
             <Image
               alt="Profile Photo"
               src={profileImage}
-              className="main__profile__image"
-            ></Image>
+              className="main__profile__image"></Image>
             <p className="icon__heading !font-firaCode !py-2 !text-secondary">
               <FcHome></FcHome>Avaiable for remote work...
             </p>
@@ -46,8 +46,7 @@ export default function Home() {
                 <Link
                   href={"https://stacklearner.com/"}
                   target="_blank"
-                  className="plain__btn !text-right"
-                >
+                  className="plain__btn !text-right">
                   Stack Learner - Full Stack Army
                 </Link>
               </div>
@@ -56,8 +55,9 @@ export default function Home() {
           </div>
         </div>
         <Service data={data}></Service>
-        <Expereince data={data}></Expereince>
         <Projects data={data}></Projects>
+        <Expereince data={data}></Expereince>
+        <Recommandation data={data}></Recommandation>
         <StickyEmail></StickyEmail>
       </div>
     </main>

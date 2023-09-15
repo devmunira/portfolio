@@ -24,6 +24,14 @@ interface Expreience {
   companyName: string;
 }
 
+interface Recomandation {
+  name: string;
+  title: string;
+  connection: string;
+  text: string;
+  link: string;
+}
+
 interface Skill {
   title: string;
   desc: string;
@@ -43,6 +51,6 @@ export interface DataType {
   projects: Project[];
   expreience?: Expreience[];
   whatICan: Skill[];
-  recomendation: string[];
   softSkills: string[];
+  recommandations: Recomandation[];
 }
