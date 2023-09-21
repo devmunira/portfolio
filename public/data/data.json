@@ -20,7 +20,7 @@
       "desc": "The main motive of this app is to give free financial services to the user including getting direction via AI and getting their data for business. The Personal Finance Management System is a web application designed to help users manage their financial activities, including accounts, expenses, income, records, categories, goal setting, and managing lent and borrowed transactions. The system is built with scalability in mind to accommodate future expansion, including potential features for business financial management.",
       "date": "2023",
       "thumbnail": "/images/wallet.png",
-      "live": "/",
+      "live": "https://wallet-30nz.onrender.com/api-docs",
       "srs": "https://www.notion.so/Wallet-2b888cf4a91d45bc859128b43546e0bd",
       "code": "https://github.com/devmunira/wallet_rest_api_v1",
       "Tech": [
