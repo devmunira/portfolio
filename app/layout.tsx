@@ -11,12 +11,12 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Munira Akter",
-  description: "Full Stack Web Developer",
+  description:
+    "👋 Hello, World! I'm Munira, a passionate and results-driven Full Stack developer in the world of web development. Throughout my journey in web development, I've gained 1.5 years of valuable experience crafting dynamic and user-centric web applications.",
   authors: [{ name: "Munira Akter", url: "muniraakter.com" }],
   applicationName: "Munira &apos; s Portfolio",
-  keywords: [
+  keywords:
     "Frontend-developer, full-stack-developer, munira-akter , react, next.js",
-  ],
   icons: "",
   twitter: {},
 };
@@ -39,6 +39,11 @@ export default function RootLayout({
         <head>
           <title>{"Munira Akter"}</title>
           <link rel="icon" type="image/x-icon" href={"images/favicon.png"} />
+          <meta
+            name="description"
+            content={metadata.description || undefined}
+          />
+          <meta name="keywords" content={metadata.keywords || undefined} />
         </head>
         <body className="mx-0 px-0 !w-full">
           {loading === false && (
