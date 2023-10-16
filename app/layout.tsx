@@ -1,5 +1,4 @@
 "use client";
-import { Metadata } from "next";
 import { useEffect, useState } from "react";
 import AnimatedCursor from "react-animated-cursor";
 import "swiper/css";
@@ -9,7 +8,7 @@ import { Footer, Header } from "./components";
 import Preloader from "./components/Preloader";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Munira Akter",
   description:
     "👋 Hello, World! I'm Munira, a passionate and results-driven Full Stack developer in the world of web development. Throughout my journey in web development, I've gained 1.5 years of valuable experience crafting dynamic and user-centric web applications.",
